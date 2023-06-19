@@ -1,0 +1,42 @@
+.container {
+}
+.catTitle {
+  color: #53c28b;
+}
+
+.item{
+  gap: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+
+.imgContainer{
+  height: 400px;
+  position: relative;
+}
+
+.img{
+  object-fit: cover;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.title{
+  font-size: 50px;
+}
+
+.desc{
+  font-size: 20px;
+}
+@media screen and (max-width: 700px) {
+.title{
+  font-size: 35px;
+} 
+}
